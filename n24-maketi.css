@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Rubik", "Arial", "Sans-serif";
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  height: 100%;
+  color: #4A4B4C;
+  background-color: #000;
+}
+
+img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
