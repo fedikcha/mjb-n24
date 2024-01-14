@@ -12,13 +12,13 @@ html{
 body{
   font-size: 16px;
   line-height: 22px;
-  font-family: "Rubik", "Arial", "Sans-serif";
   padding: 0;
   margin: 0;
   flex-direction: column;
+  font-family: "Rubik", "Arial", "Sans-serif";
   height: 100%;
   color: #4A4B4C;
-  background-color: #000;
+  background-color: #fff;
 }
 
 img{
