@@ -44,17 +44,24 @@ img{
   text-decoration: none;
 }
 
+.button:hover{
+  opacity: 0.8;
+}
+
+.button:active{
+  opacity: 0.6;
+}
+
 .button-primary {
   color: #fff;
   background-color: #7296ec;
 }
 
-.button-primary:hover{
-  opacity: 0.8;
-}
 
-.button-primary:active{
-  opacity: 0.6;
+
+.button-orange{
+  background-color: #f78b3b;
+  color: #fff;
 }
 
 
@@ -202,4 +209,101 @@ img{
 
 .site-header-banner-link{
   display: flex;
+}
+
+
+/* MAIN-CONTENT */
+.main-content{
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+.top-news {
+}
+
+/* NEWS-GRID */
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-bottom: -10px;
+}
+.news-grid-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+.article-card-title {
+  font-style: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.article-card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.article-card-link:hover{
+  color: #7296ec;
+}
+.article-card-link:active{
+  opacity: 0.6;
+}
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.article-card-img {
+  margin-top: auto;
+  width: 360px;
+  height: 165px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  display: block;
+}
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+.article-cardsource-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.article-card-source-time {
+  font-style: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+.article-card-source {
+}
+
+
+/* NOFICATION-CTA */
+.notofication-cta {
+  padding: 25px 70px 25px 25px;
+  margin: 60px 70px;
+  border-radius: 10px;
+  background-color: #ffd7ba;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notofication-cta-text{
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 20px;
+  color: #000;
 }
